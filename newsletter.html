@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Babylonica&family=Josefin+Sans:ital,wght@0,100;0,400;1,300&family=Mulish:ital,wght@0,300;0,400;0,500;0,700;0,900;0,1000;1,300&family=Noto+Sans:wght@400;500;600;800;900&family=Open+Sans:wght@400;500;600;700;800&family=Oswald:wght@200;400&family=Outfit:wght@400;600;700;800;900&family=PT+Sans&family=Poppins:wght@100;300;500;600&family=Quicksand:wght@300&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="newsletter.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+         <div class="readables">
+            <h1>Stay updated!</h1>
+            <p>join 60,000+ product manegers receiving monthly <br>updates on:</p>
+            <ul>
+                <li>Product discovery and building what matters</li>
+                <li>Measuring to ensure updates are a success</li>
+                <li>And much more</li>
+            </ul>
+            <form>
+                <label for="email">Email address <span id="alertt"></span></label>
+                <input type="text"  placeholder="email@company.com"  id="email">
+                <button>Subscribe to monthly newsletter</button>
+            </form>
+         </div>
+         
+          <img class="right" src="images/illustration-sign-up-desktop.svg" alt="">
+
+
+         
+    </div>
+    <div class="container-2 hide">
+        <img src="images/icon-success.svg" alt="">
+        <h1>Thanks for <br> subscribing!</h1>
+        <p>A confirmation email has been sent to <br> <span id="given-id"></span> Please open it and click <br> the button inside to confirm your subscription</p>
+
+        <button id="dismiss-button">Dismiss message</button>
+
+
+    </div>
+    <script src="newsletter.js"></script>
+</body>
+</html>
